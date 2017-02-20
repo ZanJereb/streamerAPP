@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E008F26B1E56ED41004A1329 /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E008F26A1E56ED41004A1329 /* MainScreen.storyboard */; };
 		E078EEC51E4FD64600AC33BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E078EEC41E4FD64600AC33BA /* AppDelegate.swift */; };
 		E078EEC71E4FD64600AC33BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E078EEC61E4FD64600AC33BA /* ViewController.swift */; };
 		E078EECA1E4FD64600AC33BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E078EEC81E4FD64600AC33BA /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E008F26A1E56ED41004A1329 /* MainScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainScreen.storyboard; sourceTree = "<group>"; };
 		E078EEC11E4FD64600AC33BA /* StreamerAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamerAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E078EEC41E4FD64600AC33BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E078EEC61E4FD64600AC33BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E008F2691E56ED19004A1329 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E008F26A1E56ED41004A1329 /* MainScreen.storyboard */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
 		E078EEB81E4FD64600AC33BA = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		E078EEC31E4FD64600AC33BA /* StreamerAPP */ = {
 			isa = PBXGroup;
 			children = (
+				E008F2691E56ED19004A1329 /* Main Screen */,
 				E078EEC41E4FD64600AC33BA /* AppDelegate.swift */,
 				E078EEC61E4FD64600AC33BA /* ViewController.swift */,
 				E078EEC81E4FD64600AC33BA /* Main.storyboard */,
@@ -234,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E078EECF1E4FD64600AC33BA /* LaunchScreen.storyboard in Resources */,
+				E008F26B1E56ED41004A1329 /* MainScreen.storyboard in Resources */,
 				E078EECC1E4FD64600AC33BA /* Assets.xcassets in Resources */,
 				E078EECA1E4FD64600AC33BA /* Main.storyboard in Resources */,
 			);
@@ -508,6 +520,7 @@
 				E078EEEB1E4FD64600AC33BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E078EEEC1E4FD64600AC33BA /* Build configuration list for PBXNativeTarget "StreamerAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +529,7 @@
 				E078EEEE1E4FD64600AC33BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E078EEEF1E4FD64600AC33BA /* Build configuration list for PBXNativeTarget "StreamerAPPUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +538,7 @@
 				E078EEF11E4FD64600AC33BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
