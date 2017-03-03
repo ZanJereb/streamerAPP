@@ -25,12 +25,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WyM-iT-vfr" userLabel="Top View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0D6-2m-y0Z">
-                                        <rect key="frame" x="10" y="10" width="46" height="55"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJj-ZP-7xe">
-                                        <rect key="frame" x="166.5" y="27.5" width="42" height="20.5"/>
+                                        <rect key="frame" x="166.5" y="27" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -39,11 +35,7 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="dJj-ZP-7xe" firstAttribute="centerY" secondItem="WyM-iT-vfr" secondAttribute="centerY" id="KNu-LA-w5Y"/>
-                                    <constraint firstItem="0D6-2m-y0Z" firstAttribute="top" secondItem="WyM-iT-vfr" secondAttribute="top" constant="10" id="ToO-k2-15O"/>
-                                    <constraint firstAttribute="bottom" secondItem="0D6-2m-y0Z" secondAttribute="bottom" constant="10" id="ZBb-uB-2P5"/>
                                     <constraint firstAttribute="height" constant="75" id="bLS-EY-RM1"/>
-                                    <constraint firstItem="0D6-2m-y0Z" firstAttribute="leading" secondItem="WyM-iT-vfr" secondAttribute="leading" constant="10" id="tGC-8B-CHE"/>
-                                    <constraint firstItem="dJj-ZP-7xe" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0D6-2m-y0Z" secondAttribute="trailing" constant="20" id="vL7-bP-jC1"/>
                                     <constraint firstItem="dJj-ZP-7xe" firstAttribute="centerX" secondItem="WyM-iT-vfr" secondAttribute="centerX" id="wHB-ks-Zqz"/>
                                 </constraints>
                             </view>
@@ -55,12 +47,11 @@
                                         <state key="normal" title="Button"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dte-9o-1rz" userLabel="Twitch Button">
-                                        <rect key="frame" x="20" y="281" width="334" height="30"/>
+                                        <rect key="frame" x="20" y="281.5" width="334" height="30"/>
                                         <state key="normal" title="Button"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYo-yF-7A3" userLabel="YouTube Button">
-                                        <rect key="frame" x="164" y="281" width="46" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYo-yF-7A3" userLabel="YouTube Button">
+                                        <rect key="frame" x="164" y="462" width="46" height="30"/>
                                         <state key="normal" title="Button"/>
                                     </button>
                                 </subviews>
@@ -69,9 +60,11 @@
                                     <constraint firstItem="3Mm-h4-smQ" firstAttribute="centerX" secondItem="mZ9-Wd-jW7" secondAttribute="centerX" id="70s-DV-GzV"/>
                                     <constraint firstItem="3Mm-h4-smQ" firstAttribute="leading" secondItem="mZ9-Wd-jW7" secondAttribute="leading" constant="20" id="75f-fK-rOa"/>
                                     <constraint firstItem="dte-9o-1rz" firstAttribute="centerY" secondItem="mZ9-Wd-jW7" secondAttribute="centerY" id="8Mh-jk-chh"/>
+                                    <constraint firstItem="jYo-yF-7A3" firstAttribute="centerX" secondItem="mZ9-Wd-jW7" secondAttribute="centerX" id="Fzo-nS-rx8"/>
                                     <constraint firstItem="dte-9o-1rz" firstAttribute="centerX" secondItem="mZ9-Wd-jW7" secondAttribute="centerX" id="L9q-F8-iyo"/>
                                     <constraint firstItem="3Mm-h4-smQ" firstAttribute="top" secondItem="mZ9-Wd-jW7" secondAttribute="top" constant="100" id="QL6-oW-Olx"/>
                                     <constraint firstItem="dte-9o-1rz" firstAttribute="leading" secondItem="mZ9-Wd-jW7" secondAttribute="leading" constant="20" id="eeV-wx-CbR"/>
+                                    <constraint firstAttribute="bottom" secondItem="jYo-yF-7A3" secondAttribute="bottom" constant="100" id="rGX-EZ-Fwi"/>
                                 </constraints>
                             </view>
                         </subviews>

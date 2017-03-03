@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		273230B864C5760A2F654E5B /* Pods_StreamerAPPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71800AA2F2FE72D084CAB1A1 /* Pods_StreamerAPPUITests.framework */; };
-		2F906FD1D299B2248ECEFEE9 /* Pods_StreamerAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BCF0D7D32BF492D5762BCF0 /* Pods_StreamerAPP.framework */; };
 		A69527FC2D924E5454238AE2 /* Pods_StreamerAPPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5CA6173EAB0C12DD975A899 /* Pods_StreamerAPPTests.framework */; };
 		E008F26B1E56ED41004A1329 /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E008F26A1E56ED41004A1329 /* MainScreen.storyboard */; };
 		E011E6DF1E5D96C200854CBA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E011E6DE1E5D96C200854CBA /* MainViewController.swift */; };
@@ -70,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F906FD1D299B2248ECEFEE9 /* Pods_StreamerAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +134,7 @@
 				9E9C06FED3A674BC41B90F69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		E078EEC21E4FD64600AC33BA /* Products */ = {
 			isa = PBXGroup;
@@ -619,6 +618,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PS467QMJZQ;
 				INFOPLIST_FILE = StreamerAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jereb.StreamerAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -633,6 +633,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PS467QMJZQ;
 				INFOPLIST_FILE = StreamerAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jereb.StreamerAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
