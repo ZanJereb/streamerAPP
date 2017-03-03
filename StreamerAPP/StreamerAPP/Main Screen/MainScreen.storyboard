@@ -45,6 +45,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Mm-h4-smQ" userLabel="Twitter Button">
                                         <rect key="frame" x="20" y="100" width="334" height="30"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="twitterButtonPressedWithSender:" destination="mcs-m4-BVU" eventType="touchUpInside" id="Pfe-hF-9EK"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dte-9o-1rz" userLabel="Twitch Button">
                                         <rect key="frame" x="20" y="281.5" width="334" height="30"/>
